@@ -1,5 +1,5 @@
 // Central API communication — all fetch() calls live here
-const BASE_URL = 'http://127.0.0.1:5000';
+const BASE_URL = 'https://smart-task-board-uzcx.onrender.com/tasks';
 
 export async function fetchTasks() {
     const response = await fetch(`${BASE_URL}/tasks`);
