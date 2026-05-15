@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Smart Task Board</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Main Container -->
+  <main class="task-board">
+
+    <!-- Header -->
+    <header class="header">
+      <h1>Smart Task Board</h1>
+      <p>React + Flask + SQLite</p>
+    </header>
+
+    <!-- Task Input Section -->
+    <section class="task-input-section">
+
+      <form id="taskForm" class="task-form">
+
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="What needs to be done?"
+          required
+        />
+
+        <button type="submit" class="add-btn">
+          Add Task
+        </button>
+
+      </form>
+
+    </section>
+
+    <!-- Task List -->
+    <section class="task-list-section">
+
+      <ul id="taskList" class="task-list">
+
+        <!-- Task Item -->
+        <li class="task-item">
+
+          <div class="task-left">
+
+            <input type="checkbox" class="task-check">
+
+            <span class="task-text">
+              React Vue
+            </span>
+
+          </div>
+
+          <div class="task-actions">
+
+            <button class="edit-btn">
+              Edit
+            </button>
+
+            <button class="delete-btn">
+              Delete
+            </button>
+
+          </div>
+
+        </li>
+
+        <li class="task-item">
+
+          <div class="task-left">
+
+            <input type="checkbox" class="task-check">
+
+            <span class="task-text">
+              Calligraphy
+            </span>
+
+          </div>
+
+          <div class="task-actions">
+
+            <button class="edit-btn">
+              Edit
+            </button>
+
+            <button class="delete-btn">
+              Delete
+            </button>
+
+          </div>
+
+        </li>
+
+        <li class="task-item">
+
+          <div class="task-left">
+
+            <input type="checkbox" class="task-check">
+
+            <span class="task-text">
+              Vision board
+            </span>
+
+          </div>
+
+          <div class="task-actions">
+
+            <button class="edit-btn">
+              Edit
+            </button>
+
+            <button class="delete-btn">
+              Delete
+            </button>
+
+          </div>
+
+        </li>
+
+        <li class="task-item">
+
+          <div class="task-left">
+
+            <input type="checkbox" class="task-check">
+
+            <span class="task-text">
+              Exploring
+            </span>
+
+          </div>
+
+          <div class="task-actions">
+
+            <button class="edit-btn">
+              Edit
+            </button>
+
+            <button class="delete-btn">
+              Delete
+            </button>
+
+          </div>
+
+        </li>
+
+        <li class="task-item">
+
+          <div class="task-left">
+
+            <input type="checkbox" class="task-check">
+
+            <span class="task-text">
+              Graphic designing
+            </span>
+
+          </div>
+
+          <div class="task-actions">
+
+            <button class="edit-btn">
+              Edit
+            </button>
+
+            <button class="delete-btn">
+              Delete
+            </button>
+
+          </div>
+
+        </li>
+
+        <li class="task-item">
+
+          <div class="task-left">
+
+            <input type="checkbox" class="task-check">
+
+            <span class="task-text">
+              Hello Kitty
+            </span>
+
+          </div>
+
+          <div class="task-actions">
+
+            <button class="edit-btn">
+              Edit
+            </button>
+
+            <button class="delete-btn">
+              Delete
+            </button>
+
+          </div>
+
+        </li>
+
+      </ul>
+
+    </section>
+
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
